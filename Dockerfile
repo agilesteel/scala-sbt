@@ -10,7 +10,7 @@ FROM openjdk:8u171-jdk-alpine3.8
 
 # Scala
 ENV SCALA_VERSION 2.12.10
-ENV SBT_VERSION 1.3.3
+ENV SBT_VERSION 1.3.4
 ENV SBT_HOME /usr/local/sbt
 ENV PATH ${PATH}:${SBT_HOME}/bin
 
